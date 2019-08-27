@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MavenProject.Maven.HomePagetTest" duration-ms="18647" started-at="2019-08-27T03:13:03Z" finished-at="2019-08-27T03:13:21Z">
+    <groups>
+      <group name="Regression">
+        <method signature="HomePagetTest.ClickOnPageObject()[pri:0, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="ClickOnPageObject" class="MavenProject.Maven.HomePagetTest"/>
+        <method signature="HomePagetTest.SwitchToChildWindow()[pri:1, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="SwitchToChildWindow" class="MavenProject.Maven.HomePagetTest"/>
+        <method signature="HomePagetTest.SwitchToParentWindow()[pri:4, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="SwitchToParentWindow" class="MavenProject.Maven.HomePagetTest"/>
+        <method signature="HomePagetTest.clickOnAlterCloseButton()[pri:3, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="clickOnAlterCloseButton" class="MavenProject.Maven.HomePagetTest"/>
+        <method signature="HomePagetTest.clickOnFindOutMore()[pri:2, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="clickOnFindOutMore" class="MavenProject.Maven.HomePagetTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Command line test" duration-ms="18647" started-at="2019-08-27T03:13:03Z" finished-at="2019-08-27T03:13:21Z">
+      <class name="MavenProject.Maven.HomePagetTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="openBrowser" is-config="true" duration-ms="13648" started-at="2019-08-27T03:13:03Z" finished-at="2019-08-27T03:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="ClickOnPageObject()[pri:0, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="ClickOnPageObject" duration-ms="119" started-at="2019-08-27T03:13:16Z" finished-at="2019-08-27T03:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnPageObject -->
+        <test-method status="PASS" signature="SwitchToChildWindow()[pri:1, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="SwitchToChildWindow" duration-ms="4066" started-at="2019-08-27T03:13:16Z" finished-at="2019-08-27T03:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchToChildWindow -->
+        <test-method status="PASS" signature="clickOnFindOutMore()[pri:2, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="clickOnFindOutMore" duration-ms="75" started-at="2019-08-27T03:13:20Z" finished-at="2019-08-27T03:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFindOutMore -->
+        <test-method status="PASS" signature="clickOnAlterCloseButton()[pri:3, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="clickOnAlterCloseButton" duration-ms="679" started-at="2019-08-27T03:13:20Z" finished-at="2019-08-27T03:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAlterCloseButton -->
+        <test-method status="PASS" signature="SwitchToParentWindow()[pri:4, instance:MavenProject.Maven.HomePagetTest@573f2bb1]" name="SwitchToParentWindow" duration-ms="39" started-at="2019-08-27T03:13:21Z" finished-at="2019-08-27T03:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchToParentWindow -->
+      </class> <!-- MavenProject.Maven.HomePagetTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- MavenProject.Maven.HomePagetTest -->
+</testng-results>
